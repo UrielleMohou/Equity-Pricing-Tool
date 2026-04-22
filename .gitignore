@@ -1,0 +1,32 @@
+# fichiers système
+.DS_Store
+Thumbs.db
+
+# environnements Python
+venv/
+__pycache__/
+*.pyc
+
+# fichiers de logs
+*.log
+
+# fichiers sensibles
+.env
+
+# dépendances Node.js
+node_modules/
+
+# dossiers de build
+dist/
+build/
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.streamlit/secrets.toml
+.pytest_cache/
+.DS_Store

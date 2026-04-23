@@ -13,7 +13,7 @@ This project aims to develop a pricing tool for European options under the Black
 
 ## 🚀 Live Demo
 
-[![Open App](https://img.shields.io/badge/Open-App-5b21b6?style=for-the-badge&logo=streamlit&logoColor=white)](https://equity-pricing-tool-uriellemm.streamlit.app/)
+[![Open App](https://img.shields.io/badge/Open-App-2563eb?style=for-the-badge&logo=streamlit&logoColor=white)](https://equity-pricing-tool-uriellemm.streamlit.app/)
 
 ## Run locally
 

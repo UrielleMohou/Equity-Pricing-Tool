@@ -1,0 +1,1 @@
+This project aims to develop a pricing tool for European options under the Black–Scholes model, including the calculation of Greeks, and subsequently extending it to support American, barrier, and Asian options, as well as binomial tree and Monte Carlo methods, along with an API and a web interface.

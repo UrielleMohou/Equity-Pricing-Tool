@@ -17,4 +17,4 @@ This project aims to develop a pricing tool for European options under the Black
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-streamlit run app/streamlit_app.py
+python -m streamlit run app/streamlit_app.py

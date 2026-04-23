@@ -1,1 +1,20 @@
+# Equity Pricing Tool
+
+## Interactive quantitative finance app for pricing equity derivatives.
+
 This project aims to develop a pricing tool for European options under the Black–Scholes model, including the calculation of Greeks, and subsequently extending it to support American, barrier, and Asian options, as well as binomial tree and Monte Carlo methods, along with an API and a web interface.
+
+## Features
+- European option pricing
+- Black-Scholes model
+- Greeks
+- Interactive Streamlit interface
+- Payoff vs current price chart
+
+## Run locally
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run app/streamlit_app.py

@@ -11,6 +11,10 @@ This project aims to develop a pricing tool for European options under the Black
 - Interactive Streamlit interface
 - Payoff vs current price chart
 
+## 🚀 Live Demo
+
+[![Open App](https://img.shields.io/badge/Open-App-00d2ff?style=for-the-badge&logo=streamlit&logoColor=white)]([https://ton-app.streamlit.app](https://equity-pricing-tool-uriellemm.streamlit.app/))
+
 ## Run locally
 
 ```bash

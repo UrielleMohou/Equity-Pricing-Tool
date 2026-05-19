@@ -1,4 +1,5 @@
-from dataclasses import dataclass 
+from dataclasses import dataclass
+
 
 @dataclass(frozen=True)
 class PricingResult:
@@ -8,3 +9,4 @@ class PricingResult:
     vega: float
     theta: float
     rho: float
+    standard_error: float | None = None

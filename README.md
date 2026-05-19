@@ -5,11 +5,21 @@
 This project aims to develop a pricing tool for European options under the Black–Scholes model, including the calculation of Greeks, and subsequently extending it to support American, barrier, and Asian options, as well as binomial tree and Monte Carlo methods, along with an API and a web interface.
 
 ## Features
-- European option pricing
-- Black-Scholes model
-- Greeks
-- Interactive Streamlit interface
-- Payoff vs current price chart
+
+- European option pricing with Black-Scholes closed-form formula
+- European, American and Bermudan vanilla options with Cox-Ross-Rubinstein binomial tree
+- European Monte Carlo pricing under geometric Brownian motion
+- American and Bermudan Monte Carlo pricing with a simplified Longstaff-Schwartz algorithm
+- Greeks computation with analytical formulas or finite differences depending on the method
+- Interactive Streamlit dashboard with payoff and pricing visualization
+
+## Method compatibility
+
+| Exercise style | Black-Scholes | Binomial Tree | Monte Carlo |
+|---|---:|---:|---:|
+| European | Yes | Yes | Yes |
+| American | No | Yes | Yes, Longstaff-Schwartz |
+| Bermudan | No | Yes | Yes, Longstaff-Schwartz |
 
 ## 🚀 Live Demo
 
